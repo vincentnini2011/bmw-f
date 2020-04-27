@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FDL>
+	<!--vincentnini2011-->
+	
+	
+	
+<cafd id="000017BE" name="BDC_01" author="vincentnini2011" series="F056">
+
+	<code description="Union Jack With Front LED PreLCI">
+		<group id="3061">
+			<function start="58" end="58" comment="BFD_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="58" end="58" comment="BFD_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="58" end="58" comment="BFD_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="50" end="50" comment="BFD_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="50" end="50" comment="BFD_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="50" end="50" comment="BFD_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="42" end="42" comment="BL_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="42" end="42" comment="BL_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="42" end="42" comment="BL_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="34" end="34" comment="BL_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="34" end="34" comment="BL_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="34" end="34" comment="BL_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_IS_LED" mask="00001000b">aktiv</function>
+		</group>
+	</code>
+	
+	<code description="Union Jack With Front HALO PreLCI. Move pin 1 to 5">
+		<group id="3061">
+			<function start="58" end="58" comment="BFD_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="58" end="58" comment="BFD_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="58" end="58" comment="BFD_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="50" end="50" comment="BFD_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="50" end="50" comment="BFD_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="50" end="50" comment="BFD_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="42" end="42" comment="BL_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="42" end="42" comment="BL_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="42" end="42" comment="BL_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="34" end="34" comment="BL_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="34" end="34" comment="BL_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="34" end="34" comment="BL_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="106" end="106" comment="FRA_H_R_IS_LED" mask="00001000b">aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="98" end="98" comment="FRA_H_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="2" end="2" comment="SL_L_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="2" end="2" comment="SL_L_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="2" end="2" comment="SL_L_IS_LED" mask="00001000b">aktiv</function>
+			<function start="10" end="10" comment="SL_R_KALTUEBERWACHUNG" mask="00000001b">nicht_aktiv</function>
+			<function start="10" end="10" comment="SL_R_WARMUBBERWACHUNG" mask="00000010b">nicht_aktiv</function>
+			<function start="10" end="10" comment="SL_L_IS_LED" mask="00001000b">aktiv</function>
+		</group>
+		<group id="3065">
+			<function start="26" end="26" comment="MAPPING_BREMSL_2_L_OUTPUT" mask="00111111b">off</function>
+			<function start="39" end="39" comment="MAPPING_BREMSL_2_R_OUTPUT" mask="00111111b">off</function>
+			<function start="0" end="0" comment="MAPPING_STANDL_H2_L_OUTPUT" mask="00111111b">off</function>
+			<function start="13" end="13" comment="MAPPING_STANDL_H2_R_OUTPUT" mask="00111111b">off</function>
+		</group>
+	</code>
+		
+	<code description="StartStop Memory">
+		<group id="3023">
+			<function start="0" end="0" comment="TCM_MSA_MEMORY" mask="00100000b">Aktiv</function>
+		</group>
+	</code>
+	
+	<code description="Closing Mirrors no delay">
+		<group id="3056">
+			<function start="10" end="10" comment="KOMFORT_SCHLIESSEN" mask="11111111b">00</function>
+		</group>
+	</code>
+	
+	<code description="Closing Mirrors 1sec delay">
+		<group id="3056">
+			<function start="10" end="10" comment="KOMFORT_SCHLIESSEN" mask="11111111b">0A</function>
+		</group>
+	</code>
+	
+	<code description="Closing Mirrors 0.5sec delay">
+		<group id="3056">
+			<function start="10" end="10" comment="KOMFORT_SCHLIESSEN" mask="11111111b">05</function>
+		</group>
+	</code>
+	
+	<code description="Closing Mirrors 0.2sec delay">
+		<group id="3056">
+			<function start="10" end="10" comment="KOMFORT_SCHLIESSEN" mask="11111111b">02</function>
+		</group>
+	</code>
+	
+	<code description="Door handles lights on reverse">
+		<group id="3070">
+			<function start="128" end="128" comment="OVT_BEI_RUECKFAHRLICHT" mask="00000001b">aktiv</function>
+		</group>
+	</code>
+	
+</cafd>
+	
+	
+	
+<cafd id="00001EF6" name="HU_NBT_EVO" author="vincentnini2011" series="F056">
+
+	<code description="Video in motion + Codecs Video - ID4">
+		<group id="3000">
+			<function start="5" end="5" comment="VIDEO_HANDBRAKE" mask="00000100b">nicht_aktiv</function>
+			<function start="5" end="5" comment="VIDEO_FRONTLOCKED" mask="00010000b">nicht_aktiv</function>
+			<function start="2" end="2" comment="VIDEO_SPEEDLOCK_CONDITION" mask="00000111b">none</function>
+			<function start="15" end="15" comment="ENT_CODEC_XVID" mask="00100000b">aktiv</function>
+			<function start="15" end="15" comment="ENT_CODEC_VCD" mask="01000000b">aktiv</function>
+		</group>
+		<group id="3003">
+			<function start="32" end="32" comment="API_USB_VIDEO" mask="00000110b">both</function>
+		</group>
+		<group id="3006">
+		<function start="25" end="25" comment="SPEEDLOCK_X_KMH_MIN" mask="11111111b">FF</function>
+		<function start="26" end="26" comment="SPEEDLOCK_X_KMH_MAX" mask="11111111b">FF</function>
+		</group>
+	</code>
+	
+	<code description="HUD JCW 1/2">
+		<group id="300C">
+			<function start="0" end="0" comment="HUD_SPORTANZEIGE_ENABLE" mask="00000001b">aktiv</function>
+			<function start="0" end="0" comment="HUD_SPORTANZEIGE_FES_ENABLE" mask="00000010b">aktiv</function>
+			<function start="0" end="0" comment="HUD_SPORTANZEIGE_MS_GASSE_ENABLE" mask="00000100b">aktiv</function>
+		</group>
+	</code>
+	
+	<code description="JCW LED RING BOOST/BRAKE">
+		<group id="3000">
+			<function start="21" end="21" comment="JOHN_COOPER_WORKS_HMI" mask="10000000b">aktiv</function>
+		</group>
+	</code>
+	
+	<code description="HUD Activation from NBT">
+		<group id="300C">
+			<function start="1" end="1" comment="HUD_ACTIVATION" mask="00010000b">aktiv</function>
+		</group>
+	</code>
+	
+	<code description="phone Ringtone">
+		<group id="3003">
+			<function start="6" end="6" comment="INBAND_RINGING" mask="10000000b">aktiv</function>
+		</group>
+	</code>
+	
+	<code description="tyre pressure and temp">
+		<group id="3001">
+			<function start="1" end="1" comment="RDC_SAFETY" mask="00100000b">aktiv</function>
+			<function start="66" end="66" comment="RDC_DRUCK_TEMP" mask="00001100b">druck_und_temperatur</function>
+		</group>
+	</code>
+	
+	<code description="Full text message display in OFFICE">
+		<group id="3003">
+			<function start="11" end="11" comment="PIM_DRIVING_TEXT_LENGTH" mask="00000111b">whole_text</function>
+		</group>
+	</code>
+	
+	<code description="BMW notification chime">
+		<group id="3002">
+			<function start="26" end="26" comment="SOUND_SIGNAL_SET" mask="00111000b">bmw</function>
+		</group>
+	</code>
+	
+	<code description="BMWi notification chime">
+		<group id="3002">
+			<function start="26" end="26" comment="SOUND_SIGNAL_SET" mask="00111000b">bmw_i</function>
+		</group>
+	</code>
+	
+	<code description="Rolls Royce notification chime">
+		<group id="3002">
+			<function start="26" end="26" comment="SOUND_SIGNAL_SET" mask="00111000b">rolls_royce</function>
+		</group>
+	</code>
+	
+	<code description="Mini notification chime">
+		<group id="3002">
+			<function start="26" end="26" comment="SOUND_SIGNAL_SET" mask="00111000b">mini</function>
+		</group>
+	</code>
+	
+</cafd>
+
+
+
+<cafd id="00001F86" name="SAS" author="vincentnini2011" series="F056">
+
+	<code description="ACC Up to 180kmh">
+		<group id="3000">
+			<function start="26" end="26" comment="LDM_Wunschgeschw_ACC_max_mph" mask="11111111b">wert110</function>
+			<function start="24" end="24" comment="LDM_Wunschgeschw_ACC_max_kmh" mask="11111111b">wert180</function>
+		</group>
+	</code>
+	
+	<code description="ACC from 5kmh - stopNgo 2/3">
+		<group id="3000">
+			<function start="25" end="25" comment="LDM_Wunschgeschw_ACC_min_kmh" mask="11111111b">05</function>
+			<function start="27" end="27" comment="LDM_Wunschgeschw_ACC_min_mph" mask="11111111b">03</function>
+		</group>
+	</code>
+	
+	<code description="stopNgo 1/3">
+		<group id="3000">
+			<function start="33" end="33" comment="LDM_Fahrfunktion" mask="11111111b">ACC_SnG</function>
+			<function start="2" end="2" comment="LDM_Automatisches_Losfahren" mask="11111111b">automatisches Losfahren</function>
+		</group>
+	</code>
+	
+</cafd>
+
+
+
+<cafd id="0000141F" name="KOMBI_I01_F56" author="vincentnini2011" series="F056">
+
+	<code description="HUD JCW 2/2">
+		<group id="3003">
+			<function start="30" end="30" comment="HUD_SPORTANZEIGE_ENABLE" mask="00000001b">aktiv</function>
+			<function start="30" end="30" comment="HUD_SPORTANZEIGE_FES_ENABLE" mask="00000010b">aktiv</function>
+			<function start="30" end="30" comment="HUD_SPORTANZEIGE_MS_GASSE_ENABLE" mask="00000100b">aktiv</function>
+			<function start="30" end="30" comment="HUD_FAHRSTUFE_ENABLE" mask="00001000b">aktiv</function>
+		</group>
+	</code>
+</cafd>
+
+
+
+<cafd id="0000297A" name="DSC_CT02" author="vincentnini2011" series="F056">
+
+	<code description="stopNgo 3/3">
+		<group id="3000">
+			<function start="29" end="29" comment="C_Funktion_AccStopAndGo_aktiv_I" mask="00000001b">aktiv</function>
+		</group>
+	</code>
+</cafd>
+
+
+
+
+</FDL>
